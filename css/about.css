@@ -84,6 +84,7 @@ p {
 header .logo {
     width: 16.67%;
 }
+
 header .logo img {
     width: 100%;
 }
@@ -95,9 +96,17 @@ header nav {
 
 header nav a {
     width: 20%;
+    padding: 10px;
     text-align: center;
     color: black;
     text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+header nav a:hover {
+    background-color: darkslategray;
+    color: white;
 }
 
 .container .spacer {
@@ -143,6 +152,13 @@ header nav a {
     padding: 0.3rem 1rem;
     border: 2px solid black;
     border-radius: 10px;
+    transition: background-color 0.25s, color 0.25s, border-color 0.25s;
+}
+
+.container #about-gallery div a:hover {
+    background-color: black;
+    color: white;
+    border-color: lightgray;
 }
 
 .container #work-together {
@@ -166,4 +182,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    transition: background-color 0.25s, color 0.25s;
+    padding: 5px 15px;
+}
+
+footer nav a:hover {
+    background-color: white;
+    color: black;
 }
