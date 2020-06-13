@@ -105,3 +105,61 @@ header nav a {
     width: 100%;
     margin-bottom: 1.5rem;
 }
+
+.container #about {
+    padding: 0 1.5rem 1rem 1.5rem;
+    border-bottom: 1px dashed black;
+}
+
+.container #about-gallery {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container #about-gallery div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 1px dashed black;
+}
+
+.container #about-gallery div img {
+    width: 100%;
+}
+
+.container #about-gallery div a {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.3rem 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container #work-together {
+    margin: 1.5rem 1.5rem;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
